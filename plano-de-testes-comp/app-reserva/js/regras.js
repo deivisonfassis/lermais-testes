@@ -1,5 +1,5 @@
 function validarMatricula(matricula) {
-  return /^\d{6}$/.test(matricula.trim());
+  return /^\d{7}$/.test(matricula.trim());
 }
 
 function validarNome(nome) {
